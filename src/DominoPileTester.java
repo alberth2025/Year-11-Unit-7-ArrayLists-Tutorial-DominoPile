@@ -31,6 +31,7 @@ public class DominoPileTester {
         tearDown();
     }
 
+
     @Test
     public void testNewStack6AllDominosPresent() {
         setUp();
@@ -90,5 +91,4 @@ public class DominoPileTester {
        assertTrue("Ensure that your shuffleOption1 method in the DominoPile class has been implemented correctly!", !allInSameOrder);
    }
 
-   
 }
